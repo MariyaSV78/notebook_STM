@@ -1,0 +1,24 @@
+*~
+
+# IPython Notebook specific
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+*.ipynb_meta/
+*.pkl
+
+# Jupyter runtime
+__pycache__/
+
+# Jupyter logs
+*.log
+
+# Jupyter configuration file
+jupyter_notebook_config.py
+
+# Jupyter environment folder
+.venv/
+env/
+venv/
+
+# Jupyter temporary files
+.ipynb-meta
