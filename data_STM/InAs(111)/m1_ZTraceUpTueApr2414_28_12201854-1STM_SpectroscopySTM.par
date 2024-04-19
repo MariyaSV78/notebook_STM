@@ -1,0 +1,434 @@
+;
+;           SPIP.
+;           Parameter file for SPM data.
+;
+
+Version                       : V2.0
+
+;
+; User Information.
+;
+
+Date                          : 15.04.24 11:52
+User                          : -
+Comment                       : Instances:
+          .  Aux1:
+          .  .  Enable = 0 --
+          .  .  Enable_Storing = 0 --
+          .  .  Auto_Oversampling = 1 --
+          .  .  Oversampling_Factor = 32 --
+          .  .  Initial_Delay = 0 Second
+          .  Aux1_V:
+          .  .  Auto_Flush_Period = 0.1 Second
+          .  .  Enable = 0 --
+          .  .  Enable_Storing = 0 --
+          .  .  Auto_Oversampling = 1 --
+          .  .  Oversampling_Factor = 19968 --
+          .  .  Initial_Delay = 5e-006 Second
+          .  Aux1_Z:
+          .  .  Auto_Flush_Period = 0.1 Second
+          .  .  Enable = 0 --
+          .  .  Enable_Storing = 0 --
+          .  .  Auto_Oversampling = 1 --
+          .  .  Oversampling_Factor = 384 --
+          .  .  Initial_Delay = 5e-006 Second
+          .  Aux2:
+          .  .  Enable = 0 --
+          .  .  Enable_Storing = 0 --
+          .  .  Auto_Oversampling = 1 --
+          .  .  Oversampling_Factor = 32 --
+          .  .  Initial_Delay = 0 Second
+          .  Aux2_V:
+          .  .  Auto_Flush_Period = 0.1 Second
+          .  .  Enable = 0 --
+          .  .  Enable_Storing = 0 --
+          .  .  Auto_Oversampling = 1 --
+          .  .  Oversampling_Factor = 19968 --
+          .  .  Initial_Delay = 5e-006 Second
+          .  Aux2_Z:
+          .  .  Auto_Flush_Period = 0.1 Second
+          .  .  Enable = 0 --
+          .  .  Enable_Storing = 0 --
+          .  .  Auto_Oversampling = 1 --
+          .  .  Oversampling_Factor = 384 --
+          .  .  Initial_Delay = 5e-006 Second
+          .  CRTCService:
+          .  .  AAB_Mux_0 = 3 --
+          .  .  AAB_Mux_1 = 2 --
+          .  .  AAB_Mux_2 = 1 --
+          .  .  AAB_Mux_3 = 0 --
+          .  .  Enable_PFU_Filter = 0 --
+          .  .  PFU_Z_Gain = 0 --
+          .  DRBService:
+          .  .  Lp_Aux1_In = 0 --
+          .  .  Lp_Aux2_In = 0 --
+          .  .  Lp_Aux1_In_AA = 1 --
+          .  .  Lp_Aux2_In_AA = 1 --
+          .  .  Aux1_In_Select = 1 --
+          .  .  Aux2_In_Select = 1 --
+          .  .  VCal_In_Select = 0 --
+          .  .  Lp_Z_Ext = 0 --
+          .  .  Lp_Z_Out = 3 --
+          .  GapVoltageControl:
+          .  .  Alternate_Voltage = -0 Volt
+          .  .  Alternate_Preamp_Range = "-10.0009;10.0009" --
+          .  .  Enable_Alternate_Voltage = 0 --
+          .  .  Enable_Alternate_Preamp_Range = 0 --
+          .  .  Preamp_Range = "-10.0009;10.0009" --
+          .  .  Voltage = 2.4 Volt
+          .  .  Const_Voltage = 0 --
+          .  .  Tip_Cond_Pulse_Voltage = -9.26735 Volt
+          .  .  Tip_Cond_Pulse_Preamp_Range = "-10.0009;10.0009" --
+          .  .  Tip_Cond_Pulse_Time = 0.0297298 Second
+          .  .  Tip_Cond_Enable_Feedback_Loop = 0 --
+          .  I:
+          .  .  Enable = 0 --
+          .  .  Enable_Storing = 0 --
+          .  .  Auto_Oversampling = 1 --
+          .  .  Oversampling_Factor = 32 --
+          .  .  Initial_Delay = 0 Second
+          .  I_Reg:
+          .  .  Enable = 1 --
+          .  .  Enable_Storing = 0 --
+          .  .  Auto_Oversampling = 0 --
+          .  .  Oversampling_Factor = 4 --
+          .  .  Initial_Delay = 0 Second
+          .  I_V:
+          .  .  Auto_Flush_Period = 0.1 Second
+          .  .  Enable = 0 --
+          .  .  Enable_Storing = 0 --
+          .  .  Auto_Oversampling = 1 --
+          .  .  Oversampling_Factor = 19968 --
+          .  .  Initial_Delay = 5e-006 Second
+          .  I_Z:
+          .  .  Auto_Flush_Period = 0.1 Second
+          .  .  Enable = 0 --
+          .  .  Enable_Storing = 0 --
+          .  .  Auto_Oversampling = 1 --
+          .  .  Oversampling_Factor = 384 --
+          .  .  Initial_Delay = 5e-006 Second
+          .  Regulator:
+          .  .  Run_Frequency = 62500 Hertz
+          .  .  Feedback_Loop_Enabled = 1 --
+          .  .  Z_Offset = 0 Meter
+          .  .  Alternate_Line_Weighting = 100 Percent
+          .  .  Enable_Alternate_Line_Weighting = 0 --
+          .  .  ADC_Read_Mode_Absolute_1 = 1 --
+          .  .  Feedback_Loop_Characteristic_1 = 1 --
+          .  .  Algorithm_Characteristics_1 = 1 --
+          .  .  Setpoint_Limit_Absolute_1 = 0 --
+          .  .  Loop_Gain_1_K = 100 Percent
+          .  .  Loop_Gain_1_P = 0 Percent
+          .  .  Loop_Gain_1_D = 0 Percent
+          .  .  Alternate_Setpoint_1 = 1e-010 Ampere
+          .  .  Alternate_Loop_Gain_1_I = 3.5 Percent
+          .  .  Alternate_Loop_Gain_1_K = 100 Percent
+          .  .  Alternate_Loop_Gain_1_P = 0 Percent
+          .  .  Alternate_Loop_Gain_1_D = 0 Percent
+          .  .  Enable_Alternate_Setpoint_1 = 0 --
+          .  .  Enable_Alternate_Loop_Gain_1_I = 0 --
+          .  .  Enable_Alternate_Loop_Gain_1_K = 0 --
+          .  .  Enable_Alternate_Loop_Gain_1_P = 0 --
+          .  .  Enable_Alternate_Loop_Gain_1_D = 0 --
+          .  .  Special_Loop_Gain_1_K = 100 Percent
+          .  .  Special_Loop_Gain_1_P = 0 Percent
+          .  .  Special_Loop_Gain_1_D = 0 Percent
+          .  .  ADC_Read_Mode_Absolute_2 = 1 --
+          .  .  Feedback_Loop_Characteristic_2 = 1 --
+          .  .  Algorithm_Characteristics_2 = 0 --
+          .  .  Setpoint_Limit_Absolute_2 = 0 --
+          .  .  Loop_Gain_2_K = 0 Percent
+          .  .  Loop_Gain_2_P = 0 Percent
+          .  .  Loop_Gain_2_D = 0 Percent
+          .  .  Alternate_Setpoint_2 = 0 a.u.
+          .  .  Alternate_Loop_Gain_2_I = 0 Percent
+          .  .  Alternate_Loop_Gain_2_K = 0 Percent
+          .  .  Alternate_Loop_Gain_2_P = 0 Percent
+          .  .  Alternate_Loop_Gain_2_D = 0 Percent
+          .  .  Enable_Alternate_Setpoint_2 = 0 --
+          .  .  Enable_Alternate_Loop_Gain_2_I = 0 --
+          .  .  Enable_Alternate_Loop_Gain_2_K = 0 --
+          .  .  Enable_Alternate_Loop_Gain_2_P = 0 --
+          .  .  Enable_Alternate_Loop_Gain_2_D = 0 --
+          .  .  Special_Loop_Gain_2_K = 0 Percent
+          .  .  Special_Loop_Gain_2_P = 0 Percent
+          .  .  Special_Loop_Gain_2_D = 0 Percent
+          .  .  Auto_Approach_Retraction_Speed = 0.01 Meter/second
+          .  .  Auto_Approach_Pre_Ramp_Delay = 0.2 Second
+          .  .  Auto_Approach_Post_Ramp_Delay = 0.1 Second
+          .  .  Line_Weighting = 100 Percent
+          .  .  Special_Line_Weighting = 100 Percent
+          .  .  Const_Setpoint = 0 --
+          .  .  Retraction_Speed = 1.8e-006 Meter/second
+          .  .  Setpoint_1 = 1e-010 Ampere
+          .  .  Loop_Gain_1_I = 3.5 Percent
+          .  .  Preamp_Range_1 = "0;3.33e-007" --
+          .  .  Sign_1 = 0 --
+          .  .  Delta_f_Min_1 = -100 --
+          .  .  Special_Setpoint_1 = 1e-009 Ampere
+          .  .  Special_Loop_Gain_1_I = 7 Percent
+          .  .  Special_Preamp_Range_1 = "0;3.33e-007" --
+          .  .  Setpoint_2 = 0 a.u.
+          .  .  Loop_Gain_2_I = 0 Percent
+          .  .  Preamp_Range_2 = "0;0" --
+          .  .  Sign_2 = 0 --
+          .  .  Delta_f_Min_2 = -100 --
+          .  .  Special_Setpoint_2 = 0 a.u.
+          .  .  Special_Loop_Gain_2_I = 0 Percent
+          .  .  Special_Preamp_Range_2 = "0;0" --
+          .  .  Auto_Approach_Ramp_Speed_High_Range = 1.3e-007 Meter/second
+          .  .  Auto_Approach_Ramp_Speed_Low_Range = 8e-008 Meter/second
+          .  .  Auto_Approach_Timeout = 10 Second
+          .  .  Auto_Approach_Mode_1 = 1 --
+          .  .  Auto_Approach_Mode_2 = 0 --
+          .  .  Z_Offset_Delay = 0 Second
+          .  .  Z_Offset_Slew_Rate = 1e-007 Meter/second
+          .  .  Enable_Z_Offset_Slew_Rate = 0 --
+          .  .  Z_Offset_Special = 0 Meter
+          .  .  Z_Offset_Special_Delay = 0 Second
+          .  .  Z_Offset_Special_Slew_Rate = 1e-007 Meter/second
+          .  .  Enable_Z_Offset_Special_Slew_Rate = 0 --
+          .  .  Z_Ramp = 0 Meter
+          .  .  Z_Ramp_Delay = 0 Second
+          .  .  Z_Ramp_Slew_Rate = 1e-007 Meter/second
+          .  .  Enable_Z_Ramp_Slew_Rate = 0 --
+          .  .  Enable_Z_Ramp_Gap_Voltage = 1 --
+          .  STMSCBService:
+          .  .  Lp_VGap_Out_Rg = 0 --
+          .  .  VCal_In_Select = 0 --
+          .  .  VGap_Out_Select = 0 --
+          .  .  VGap_Int_Ext_Select = 0 --
+          .  .  Lp_IT_Regulator = 1 --
+          .  .  Lp_IT_Regulator_AA = 0 --
+          .  .  Lp_IT_Image_AA = 0 --
+          .  .  IT_Select = 0 --
+          .  .  VGap_Select = 0 --
+          .  .  VGap_Out_Mod_Select = 0 --
+          .  Spectroscopy:
+          .  .  Enable_Mode_Locks = 1 --
+          .  .  Alternate_Spectroscopy_Mode = 0 --
+          .  .  Enable_Alternate_Spectroscopy_Mode = 0 --
+          .  .  Alternate_Modulation_VMod_T1T2 = 0 --
+          .  .  Alternate_Modulation_VMod_T2T3 = 0 --
+          .  .  Enable_Alternate_Modulation_VMod_T1T2 = 0 --
+          .  .  Enable_Alternate_Modulation_VMod_T2T3 = 0 --
+          .  .  Alternate_Modulation_VExt_T1T2 = 0 --
+          .  .  Alternate_Modulation_VExt_T2T3 = 0 --
+          .  .  Enable_Alternate_Modulation_VExt_T1T2 = 0 --
+          .  .  Enable_Alternate_Modulation_VExt_T2T3 = 0 --
+          .  .  Alternate_Modulation_ZExt_T1T2 = 0 --
+          .  .  Alternate_Modulation_ZExt_T2T3 = 0 --
+          .  .  Enable_Alternate_Modulation_ZExt_T1T2 = 0 --
+          .  .  Enable_Alternate_Modulation_ZExt_T2T3 = 0 --
+          .  .  Alternate_Device_1_Start = -0.999998 Volt
+          .  .  Alternate_Device_1_End = 1 Volt
+          .  .  Enable_Alternate_Device_1_Start = 0 --
+          .  .  Enable_Alternate_Device_1_End = 0 --
+          .  .  Alternate_Device_1_Slew_Rate = 9000 --
+          .  .  Enable_Alternate_Device_1_Slew_Rate = 0 --
+          .  .  Alternate_Delay_T1_1 = 0.05 Second
+          .  .  Alternate_Delay_T2_1 = 0.01 Second
+          .  .  Alternate_Delay_T3_1 = 0.05 Second
+          .  .  Alternate_Delay_T4_1 = 0.05 Second
+          .  .  Enable_Alternate_Delay_T1_1 = 0 --
+          .  .  Enable_Alternate_Delay_T2_1 = 0 --
+          .  .  Enable_Alternate_Delay_T3_1 = 0 --
+          .  .  Enable_Alternate_Delay_T4_1 = 0 --
+          .  .  Alternate_Aux1_Range = "-10.0009;10.0009" --
+          .  .  Enable_Alternate_Aux1_Range = 0 --
+          .  .  Alternate_Device_2_Start = 1e-007 Meter
+          .  .  Alternate_Device_2_End = 5e-007 Meter
+          .  .  Enable_Alternate_Device_2_Start = 0 --
+          .  .  Enable_Alternate_Device_2_End = 0 --
+          .  .  Alternate_Device_2_Slew_Rate = 1e-006 --
+          .  .  Enable_Alternate_Device_2_Slew_Rate = 0 --
+          .  .  Alternate_Delay_T1_2 = 0.0001 Second
+          .  .  Alternate_Delay_T2_2 = 0.0001 Second
+          .  .  Alternate_Delay_T3_2 = 0.0001 Second
+          .  .  Alternate_Delay_T4_2 = 0.0001 Second
+          .  .  Enable_Alternate_Delay_T1_2 = 0 --
+          .  .  Enable_Alternate_Delay_T2_2 = 0 --
+          .  .  Enable_Alternate_Delay_T3_2 = 0 --
+          .  .  Enable_Alternate_Delay_T4_2 = 0 --
+          .  .  Alternate_Aux2_Range = "0;0" --
+          .  .  Enable_Alternate_Aux2_Range = 0 --
+          .  .  Disable_Feedback_Loop = 1 --
+          .  .  Reenable_Feedback_Loop = 1 --
+          .  .  Spectroscopy_Mode = 0 --
+          .  .  Enable_Status_Signals = 1 --
+          .  .  Enable_Modulation = 0 --
+          .  .  Modulation_VMod_T1T2 = 0 --
+          .  .  Modulation_VMod_T2T3 = 0 --
+          .  .  Modulation_VExt_T1T2 = 0 --
+          .  .  Modulation_VExt_T2T3 = 0 --
+          .  .  Modulation_ZExt_T1T2 = 0 --
+          .  .  Modulation_ZExt_T2T3 = 0 --
+          .  .  Correction_Strategy = 0 --
+          .  .  Pause_Conduct_Mode = 2 --
+          .  .  Device_1_Start = -0.999998 Volt
+          .  .  Device_1_End = 1 Volt
+          .  .  Device_1_Points = 120 Count
+          .  .  Device_1_Repetitions = 1 Count
+          .  .  Raster_Time_1 = 0.05 Second
+          .  .  Delay_T1_1 = 0.05 Second
+          .  .  Delay_T2_1 = 0.01 Second
+          .  .  Delay_T3_1 = 0.05 Second
+          .  .  Delay_T4_1 = 0.05 Second
+          .  .  Enable_Device_1_Ramp_Reversal = 0 --
+          .  .  Enable_Device_1_Slew_Rate = 0 --
+          .  .  Enable_Device_1_Ramp_Step_Slew_Rate = 0 --
+          .  .  Device_1_Slew_Rate = 9000 --
+          .  .  Device_1_Ramp_Step_Slew_Rate = 9000 --
+          .  .  Aux1_Range = "-10.0009;10.0009" --
+          .  .  Maximum_Points_1 = 500 Count
+          .  .  Device_2_Start = 1e-007 Meter
+          .  .  Device_2_End = 5e-007 Meter
+          .  .  Device_2_Offset = 0 Meter
+          .  .  Device_2_Offset_Delay = 0 Second
+          .  .  Device_2_Change_Positive = 0 Meter
+          .  .  Device_2_Change_Negative = 0 Meter
+          .  .  Device_2_Points = 51 Count
+          .  .  Device_2_Repetitions = 1 Count
+          .  .  Raster_Time_2 = 0.001 Second
+          .  .  Delay_T1_2 = 0.0001 Second
+          .  .  Delay_T2_2 = 0.0001 Second
+          .  .  Delay_T3_2 = 0.0001 Second
+          .  .  Delay_T4_2 = 0.0001 Second
+          .  .  Enable_Device_2_Ramp_Reversal = 0 --
+          .  .  Enable_Device_2_Slew_Rate = 1 --
+          .  .  Enable_Device_2_Ramp_Step_Slew_Rate = 0 --
+          .  .  Device_2_Slew_Rate = 1e-006 --
+          .  .  Device_2_Ramp_Step_Slew_Rate = 0.0019 --
+          .  .  Aux2_Range = "0;0" --
+          .  .  Maximum_Points_2 = 500 Count
+          .  USCBService:
+          .  .  Lp_DAC1_Out_Rg = 0 --
+          .  .  Lp_DAC2_Out_Rg = 0 --
+          .  .  DAC1_Cal_In_Select = 0 --
+          .  .  DAC2_Cal_In_Select = 0 --
+          .  .  DAC1_Out_Select = 0 --
+          .  .  DAC2_Out_Select = 0 --
+          .  .  Lp_ADC1_In_AA = 0 --
+          .  .  Lp_ADC2_In_AA = 0 --
+          .  .  Lp_ADC3_In_AA = 0 --
+          .  .  Lp_ADC4_In_AA = 0 --
+          .  .  ADC1_In_Select = 0 --
+          .  .  ADC2_In_Select = 0 --
+          .  .  ADC3_In_Select = 0 --
+          .  .  ADC4_In_Select = 0 --
+          .  XYScanner:
+          .  .  Enable_Drift_Compensation = 1 --
+          .  .  X_Drift = 0 Meter/second
+          .  .  Y_Drift = 0 Meter/second
+          .  .  Enable_Automatic_Drift_Compensation = 0 --
+          .  .  Relocation_Time_Limit = 40 Second
+          .  .  Relocation_Step_Limit = 5e-011 Meter
+          .  .  Height = 5e-008 Meter
+          .  .  Width = 5e-008 Meter
+          .  .  Points = 800 Count
+          .  .  Lines = 800 Count
+          .  .  Angle = 347 Degree
+          .  .  X_Offset = 5.91152e-008 Meter
+          .  .  Y_Offset = 5.97915e-008 Meter
+          .  .  Raster_Time = 0.00012 Second
+          .  .  Move_Raster_Time = 0.00012 Second
+          .  .  Subgrid_X = 10 Count
+          .  .  Subgrid_Y = 10 Count
+          .  .  Enable_Subgrid = 0 --
+          .  .  Subgrid_Match_Mode = 1 --
+          .  .  X_Retrace = 0 --
+          .  .  Y_Retrace = 0 --
+          .  .  Exact_Match = 0 --
+          .  .  Scan_Constraint = 0 --
+          .  .  Line_Start_Delay = 0 Second
+          .  .  Line_End_Delay = 0 Second
+          .  .  Speed_Adaptation = 0 --
+          .  .  Points_Lines_Constrained = 1 --
+          .  .  Subgrid_Constrained = 1 --
+          .  .  Width_Height_Constrained = 1 --
+          .  .  Move_Raster_Time_Constrained = 1 --
+          .  .  Drift_Compensation_Ratio = 30 Percent
+          .  .  Drift_Offset_Elimination_Rate = 20 Percent
+          .  Z:
+          .  .  Enable = 1 --
+          .  .  Enable_Storing = 1 --
+          .  .  Auto_Oversampling = 1 --
+          .  .  Oversampling_Factor = 32 --
+          .  .  Initial_Delay = 0 Second
+
+
+;
+; Scanner Description.
+;
+
+Name                          : -
+
+;
+; Scanner Area Description.
+;
+
+Field X Size in nm            : 50.000     ;[nm]
+Field Y Size in nm            : 50.000     ;[nm]
+Image Size in X               : 800
+Image Size in Y               : 800
+Increment X                   : 0.062500     ;[nm]
+Increment Y                   : 0.062500     ;[nm]
+Scan Angle                    : 0.000000     ;[Degree]
+X Offset                      : 59.1152     ;[nm]
+Y Offset                      : 59.7915     ;[nm]
+
+;
+; Topographic Channels.
+;
+
+Topographic Channel           : Z   ;Channel
+                                Forward 
+                                -32768   ;Minimum raw value
+                                32767   ;Maximum raw value
+                                -190.16   ;Minimum value in physical unit
+                                190.16   ;Maximum value in physical unit
+                                0.00580325   ;Resolution
+                                nm   ;Physical unit
+                                m1_Z TraceUp Tue Apr 24 14_28_12 2018 [54-1]  STM_Spectroscopy STM.tf0   ;Filename
+
+;
+; Measurement parameters.
+;
+
+SPM Method                    : STM
+X Resolution                  : 0     ;Currently not used.
+Y Resolution                  : 0     ;Currently not used.
+Dual mode                     : Off
+Gap Voltage                   : 0.00000     ;[V]
+Feedback Set                  : 0.00000     ;[nA]
+Loop Gain                     : 0.00000     ;[]
+Scan Speed                    : -50.0000     ;[nm/s]
+X Drift                       : 0.00000     ;[nm/s]
+Y Drift                       : 0.00000     ;[nm/s]
+Scan Mode                     : -
+Topography Time per Point     : 0
+Spectroscopy Grid Value in X  : 1
+Spectroscopy Grid Value in Y  : 1
+Spectroscopy Points in X      : 800
+Spectroscopy Lines in Y       : 800
+
+;
+; Z Control Parameters.
+;
+
+Z Speed                       : 0.00000     ;[nm/s]
+Z Output Gain                 : 0.00000
+Automatic Z zero              : Off
+Z Input Gain                  : 0.00000
+
+;
+; AFM Description.
+;
+
+AFM exists                    : 0
+Amplitude                     : 0.00000     ;[V]
+Delta f sign                  : 1
+Oscillator available?         : No
+Calibration FN                : 0.0000000     ;[nN/V]
+Calibration FL                : 0.0000000     ;[nN/V]
+I Total                       : 0.0000000     ;[V]
